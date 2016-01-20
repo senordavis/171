@@ -1,0 +1,194 @@
+@import "bootstrap-variables.less";
+@import "bootstrap.less";
+@import "buttons.less";
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6, .h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: inherit;
+  font-weight: 800;
+  line-height: 1.1;
+  color: inherit;
+}
+
+#myCarousel {
+	background: url("../images/171Background.jpg") center -180px no-repeat;
+	background-color: #05406F;
+	height: 240px;
+	margin-bottom: 60px;
+	/* background-size: cover !important; */
+}
+
+.carousel-caption {
+	text-shadow: none !important;
+	z-index: 10;
+	
+	h1, p{
+		margin-bottom: 0px;				
+		
+		a {
+			color: #FFFFFF;
+			font-weight: 800 !important;
+			
+			&:hover {
+				background-color: @brand-primary;
+				color: white;
+				padding: 5px;
+				margin: -5px;
+				text-decoration: none;
+			}	
+		}
+	}
+	
+	// p{color:#5d727a;}
+	
+	a.btn {
+		position: relative;
+		top: 10px;
+	}
+}
+
+.carousel .item {
+  height: 240px;
+  /* background-color: #777; */
+}
+
+.carousel-inner > .item > img {
+	margin: 0 auto;
+	position: relative;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background: none;
+}
+
+.featurette-heading {
+	margin-top: 30px;
+	font-size: 48px;
+	
+	.text-muted {
+		font-weight: normal;
+		font-size: 24px;
+		display: inline-block;
+	}
+}
+
+@media (min-width: 768px) {
+  .lead {
+    font-size: 18px;
+  }
+}
+
+.featurette, footer, .content {
+	
+	p a {
+	font-weight: bold !important;
+	color: @brand-primary;
+	
+	&:hover {
+		color: white;
+		background-color: @brand-primary;
+		padding: 5px;
+		margin: -5px;
+		text-decoration: none;
+	}
+}
+
+}
+
+.areas {text-align: center;}
+
+a {
+	font-weight: bold !important;
+}
+
+footer {
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+
+// SYLLABUS STYLES
+
+.syllabus {
+	h2 {font-size: 21px;}
+	h3 {font-size: 18px; margin-bottom: 5px;margin-top: 30px;}
+	
+	> section {
+	border-top: 1px solid lighten(gray, 20%);
+	margin-bottom: 15px;
+	}
+	
+	.plagiarism {
+		.alert();
+		.alert-danger();
+		margin-top: 30px;
+		padding: 30px;
+		
+		h3 {margin-top: 0;}
+		
+	}
+	
+	
+	table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	//font-family: "Raleway", "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif !important; 
+	}
+	td,th {	
+		border: 1px solid #ddd;
+		padding: 3px 10px;
+	}
+	th {
+		padding: 5px 10px;	
+	}
+
+}
+
+.week {
+	border-top: 1px solid lighten(gray, 20%);
+	margin-bottom: 15px;
+}
+
+.week:last-of-type {
+	border-bottom: 1px solid lighten(gray, 20%);
+}
+
+.class-info-list {
+ 	.well();
+	border-top: none;
+	
+	
+	h2 {font-size: 24px;margin-top: 0px;}
+	
+	ul {list-style-type: none;}
+}
+
+.email {
+	> p {display: inline; margin: 0;}
+}
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+hr.line {
+  background: none !important;
+  border-bottom: 1px solid #CCC;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+a.btn {
+	color: white !important;
+	padding: 10px 16px !important;
+	margin: 0 !important;
+}

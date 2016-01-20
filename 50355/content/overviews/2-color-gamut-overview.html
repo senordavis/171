@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link href="//fonts.googleapis.com/css?family=Raleway:400,800" rel='stylesheet' type='text/css'>
+<link href="//msu.edu/~davisgom/171/assets/css/bootstrap.css" rel="stylesheet">
+<link href="//msu.edu/~davisgom/171/assets/css/coursepack.css" rel='stylesheet' type='text/css'>
+
+
+<title>Color Gamut Overview</title>
+
+</head>
+<body>
+<h3>About Color Working Spaces</h3>
+<p>A working space is an intermediate color space used to define and edit color in Adobe applications. Each color model has a working space profile associated with it. You can choose working space profiles in the Color Settings dialog box.</p>
+<p>A working space profile acts as the source profile for newly created documents that use the associated color model. For example, if Adobe RGB (1998) is the current RGB working space profile, each new RGB document that you create will use colors within the Adobe RGB (1998) gamut. Working spaces also determine the appearance of colors in untagged documents.</p>
+<p><strong>To display working space options in Photoshop choose Edit &gt; Color Settings.</strong></p>
+<p><strong>RGB</strong> Determines the RGB color space of the application. In general, it&rsquo;s best to choose Adobe RGB or sRGB, rather than the profile for a specific device (such as a monitor profile).</p>
+<p><strong>sRGB</strong> is recommended when you prepare images for the web, because it defines the color space of the standard monitor used to view images on the web. sRGB is also a good choice when you work with images from consumer-level digital cameras, because most of these cameras use sRGB as their default color space.</p>
+<p><strong>Adobe RGB</strong> is recommended when you prepare documents for print, because Adobe RGB&rsquo;s gamut includes some printable colors (cyans and blues in particular) that can&rsquo;t be defined using sRGB. Adobe RGB is also a good choice when working with images from professional-level digital cameras, because most of these cameras use Adobe RGB as their default color space.</p>
+<p><strong>CMYK</strong> Determines the CMYK color space of the application. All CMYK working spaces are device- dependent, meaning that they are based on actual ink and paper combinations. The CMYK working spaces Adobe supplies are based on standard commercial print conditions.</p>
+<p><strong>Gray</strong> (Photoshop) or <strong>Grayscale</strong> (Acrobat) Determines the grayscale color space of the application.</p>
+<p><strong>Spot</strong> (Photoshop) Specifies the dot gain to use when displaying spot color channels and duotones.</p>
+<h3>Histograms - Don&rsquo;t Trust That Monitor!</h3>
+<p>How do you know if you have a good quality scan or digital capture image?</p>
+<p>If you are trusting the image you see on your monitor, then you are headed for trouble. Unless you are using some sort of monitor calibration software/hardware, your monitor is only good for judging images that will only ever be displayed on that one monitor (never as ink or toner on paper or even as glowing pixels on another monitor). Fortunately Photoshop contains a good reliable method to evaluate the quality of your digital images: The Histogram!</p>
+<p>A <strong>histogram</strong> is a graphical representation of the distribution of pixels within the image and simply shows you how many pixels exist at each brightness level from black through white. A &ldquo;good&rdquo; histogram for a normal image should show pixels spread through the entire range without going over at the ends and without any gaps.</p>
+<p>The Histogram Palette shows the state of your current active image. It can be set to show just the graph or expanded to show more information.</p>
+<p>You can fully expand the palette to see the histogram of each individualcolorchannel. Youcan evenseethem theirrespective colors.</p>
+<p>In newer versions of Photoshop,the Histogram updates automatically as changesaremade tothe image. This can show possible problems, such as gaps, that can occur as the image is modified.</p>
+<h3>Understanding Bit Depth - More information means better images!</h3>
+<p>You may have heard the terms &ldquo;8-bit&rdquo; and &ldquo;16-bit&rdquo; tossed around in graphics circles (and neither has anything to do with Photoshop being a 64-bit program, as the box on page 4 explains). When people refer to bits, they&rsquo;re talking about how many colors an image contains. Photoshop&rsquo;scolormodes determine whether a document is an 8- or a 16-bit image (other,lesscommonoptionsare1-bitand32-bit).Sinceyou&rsquo;ll runintotheselabelsfairlyoften,ithelpstounderstandmore about what these numbers mean.</p>
+<p>A bit is the smallest unit of measurement that computers use to store information: either a 1 or a 0 (on or off, respectively). Each pixel in an image has a bit depth, which controls how much color information that pixel can hold. So an image&rsquo;s bit depth determines how much color info the image contains. The higher the bit depth, the more colors the image can display. And the more colors in your image, the more info (details) you&rsquo;ve got to play with in Photoshop.</p>
+<p>To understanding bit depth, you need to know a little about channels, where Photoshop stores your image&rsquo;s color info on separate layers. For example, in an RGB image you have three channels: one each for red, green, and blue. If you combine the info contained in each channel, you can figure how many colors are in your image. With all that in mind, here&rsquo;s a quick tour of your various bit choicesinPhotoshop:</p>
+<p>In Bitmap color mode, your pixels can be only black or white. Images in this mode are called 1-bit images because each pixel can be only one color&mdash;black or white (they&rsquo;re also known simply as bitmap images).</p>
+<p>An 8-bit image can hold two values in each bit, which equals 256 possible color values. Why 256? Since each of the eight bits can hold two possible values, you get 256 combinations. (For math fans, it&rsquo;s two to the eighth power, which equals 256). Images in Gray scale mode contain one channel, so that&rsquo;s 8 bits per channel, equaling 256 colors.</p>
+<p>Since images in RGB mode contain three channels (one each for red, blue, and green), folks refer to them as 24- bit images (8 bits per channel x 3 = 24), but they&rsquo;re still really just 8-bit images. With 256 combinations for each channel (that&rsquo;s 28 x 28 x 28),you can have over 16 million colors in an RGB image. Since CMYK images have four channels,folks refer to them as 32-bit images (8 bits per channel x4 = 32), but again, these are still 8-bit images. Over 200 combinations per channel and four channels add up to a massive number of possible color values, but since you&rsquo;re dealing with printed ink, your color range in CMYK is dictated by what can actually be reproduced on paper, which reduces it to about 55,000 colors.</p>
+<p>16-bit images contain 65,536 colors in a single channel and are produced by some high-end digital cameras (digital single- lens reflex, or DSLR, cameras) shooting in Raw format and by really good scanners. These files don&rsquo;t look any different from other images on your screen, but they take up twice as much hard drive space. Photographers really like 16-bit images because the extra colors give them more flexibility when they&rsquo;re making Curves and Levels adjustments even though the larger file sizes can really slow Photoshop down. Also, not all of Photoshop&rsquo;s tools and filters work with 16-bit images.</p>
+<p>32-bit images, referred to as high dynamic range(HDR), contain more colors than you can shake a stick at.</p>
+<p>For the most part, you&rsquo;ll deal with 8-bit images, but if you&rsquo;ve got a camera that shoots at higher bit depths, by all means, take a weekend and experiment to see if the difference in quality is worth the sacrifice of hard drive space (and editing speed). And if you&rsquo;re restoring a really old photo, it may be helpful to scan it at a high bit depth so you have a wider range of colors to work with.</p>
+<h3>Breaking Down the Bits</h3>
+<ul>
+<li>1 bit = 2 choices: one color on or off (old monochrome monitors)</li>
+<li>2 bit = 22: four colors</li>
+<li>4 bit = 24: 16 colors (old commodore64, original nintendo)</li>
+<li>8 bit = 28: 256 colors (photoshop grayscale mode)</li>
+<li>24 bit = 28 x 3: 256 colors per channel (photoshop RGB mode)</li>
+<li>16 bit = 216: 65,526 colors (photoshop grayscale 16 bit mode)</li>
+<li>48 bit = 216 x 3: 65,526 colors per channel (photoshop RGB 16 bit mode)</li>
+</ul>
+<h4>A few notes:</h4>
+<p>You must start with high-bit depth at the capture point to utilize all those levels. This means you will shoot in RAW format when using your camera. You will also scan your images at 16/48 bit when using a scanner.</p>
+<p>Most printers and other output devices will only work with 8/24 bit images. Even most of the Photoshop tools will not work with high-bit depth images. You work at high-bit depth to adjust your image to a good histogram and then you pull it back down to 18/24 by using the Image &gt; Mode pull-down. ￼￼￼￼￼￼</p>
+</body>
+</html>
