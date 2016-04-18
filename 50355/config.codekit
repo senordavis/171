@@ -342,11 +342,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/features\/selfportrait.jpg": {
+	"\/assets\/images\/features\/selfportrait-15.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 26919,
+		"inputAbbreviatedPath": "\/assets\/images\/features\/selfportrait-15.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/features\/selfportrait-15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/features\/selfportrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26901,
 		"inputAbbreviatedPath": "\/assets\/images\/features\/selfportrait.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/features\/selfportrait.jpg",
 		"outputPathIsOutsideProject": 0,
