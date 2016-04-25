@@ -2078,6 +2078,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/features\/_selfportrait-14.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/features\/_selfportrait-14.kit",
+		"outputAbbreviatedPath": "\/partials\/features\/_selfportrait-14.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/features\/_selfportrait.kit": {
 		"fileType": 2048,
 		"ignore": 1,
