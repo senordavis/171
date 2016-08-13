@@ -2,77 +2,63 @@
 @import "bootstrap.less";
 @import "buttons.less";
 
+@montserrat: "Montserrat", sans-serif;
+@roboto: "Roboto", sans-serif;
+
+@lighter-blue: #1B75BA;
+@light-blue: #15588C;
+@base-blue: #05406F;
+@dark-blue: #043053;
+
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: @roboto;
+    font-weight: 300;
 	font-size: 16px;
 }
 
 h1,h2,h3,h4,h5,h6, .h1,.h2,.h3,.h4,.h5,.h6 {
-  font-family: inherit;
-  font-weight: 800;
-  line-height: 1.1;
+  font-family: @montserrat;
+  font-weight: 700;
+  line-height: 0.9;
   color: inherit;
 }
 
-#myCarousel {
+a {
+	font-weight: bold !important;
+}
+
+#weekly-intro {
 	background: url("../images/171Background.jpg") center -156px no-repeat;
 	background-color: #05406F;
-	height: 240px;
+	height: 500px;
 	margin-bottom: 60px;
-	/* background-size: cover !important; */
+    color: #CCC;
+
+    a {
+        color: #FFF;
+        text-decoration: underline;
+
+        &:hover {
+            background-color: @brand-primary;
+            color: white;
+            padding: 5px;
+            margin: -5px;
+            text-decoration: none;
+        }	
+    }
 }
 
-.carousel-caption {
-	text-shadow: none !important;
-	z-index: 10;
-	
-	h1, p{
-		margin-bottom: 0px;				
-		
-		a {
-			color: #FFFFFF;
-			font-weight: 800 !important;
-			
-			&:hover {
-				background-color: @brand-primary;
-				color: white;
-				padding: 5px;
-				margin: -5px;
-				text-decoration: none;
-			}	
-		}
-	}
-	
-	// p{color:#5d727a;}
-	
-	a.btn {
-		position: relative;
-		top: 10px;
-	}
-}
-
-.carousel .item {
-  height: 240px;
-  /* background-color: #777; */
-}
-
-.carousel-inner > .item > img {
-	margin: 0 auto;
-	position: relative;
-}
-
-.carousel-control.left, .carousel-control.right {
-	background: none;
-}
-
-.featurette-heading {
+.feature-heading {
 	margin-top: 30px;
 	font-size: 48px;
+    color: #FFF;
 	
 	.text-muted {
-		font-weight: normal;
+		font-weight: 300;
 		font-size: 24px;
 		display: inline-block;
+        color: @lighter-blue;
+        
 	}
 }
 
@@ -82,15 +68,15 @@ h1,h2,h3,h4,h5,h6, .h1,.h2,.h3,.h4,.h5,.h6 {
   }
 }
 
-.featurette, footer, .content {
+.feature, footer, .content {
 	
 	p a {
 	font-weight: bold !important;
-	color: @brand-primary;
+	color: @lighter-blue;
 	
 	&:hover {
 		color: white;
-		background-color: @brand-primary;
+		background-color: @lighter-blue;
 		padding: 5px;
 		margin: -5px;
 		text-decoration: none;
@@ -99,13 +85,46 @@ h1,h2,h3,h4,h5,h6, .h1,.h2,.h3,.h4,.h5,.h6 {
 
 }
 
-.areas {text-align: center;}
-
-a {
-	font-weight: bold !important;
+.area {
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    
+    &:before {
+        content: "";
+        width: 80%;
+        height: 1px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-top: 1px solid gray;
+        margin-left: 10%;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+    p:first-of-type {
+        width: 80%;
+    }
+}
+.area-icon {
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: @lighter-blue;    
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+    border-radius: 100%;
+    margin-bottom: 100px;
 }
 
 footer {
+    font-family: @montserrat;
 	font-size: 14px;
 	margin-bottom: 50px;
 }
@@ -191,4 +210,6 @@ a.btn {
 	color: white !important;
 	padding: 10px 16px !important;
 	margin: 0 !important;
+    font-weight: normal !important;
+    font-family: "Montserrat", sans-serif;
 }

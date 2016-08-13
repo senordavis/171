@@ -5959,7 +5959,8 @@ button.close {
   border-color: #46001c #46001c #46001c;
 }
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 16px;
 }
 h1,
@@ -5974,91 +5975,99 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: 800;
-  line-height: 1.1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 0.9;
   color: inherit;
 }
-#myCarousel {
+a {
+  font-weight: bold !important;
+}
+#weekly-intro {
   background: url("../images/171Background.jpg") center -156px no-repeat;
   background-color: #05406F;
-  height: 240px;
+  height: 500px;
   margin-bottom: 60px;
-  /* background-size: cover !important; */
+  color: #CCC;
 }
-.carousel-caption {
-  text-shadow: none !important;
-  z-index: 10;
+#weekly-intro a {
+  color: #FFF;
+  text-decoration: underline;
 }
-.carousel-caption h1,
-.carousel-caption p {
-  margin-bottom: 0px;
-}
-.carousel-caption h1 a,
-.carousel-caption p a {
-  color: #FFFFFF;
-  font-weight: 800 !important;
-}
-.carousel-caption h1 a:hover,
-.carousel-caption p a:hover {
+#weekly-intro a:hover {
   background-color: #337ab7;
   color: white;
   padding: 5px;
   margin: -5px;
   text-decoration: none;
 }
-.carousel-caption a.btn {
-  position: relative;
-  top: 10px;
-}
-.carousel .item {
-  height: 240px;
-  /* background-color: #777; */
-}
-.carousel-inner > .item > img {
-  margin: 0 auto;
-  position: relative;
-}
-.carousel-control.left,
-.carousel-control.right {
-  background: none;
-}
-.featurette-heading {
+.feature-heading {
   margin-top: 30px;
   font-size: 48px;
+  color: #FFF;
 }
-.featurette-heading .text-muted {
-  font-weight: normal;
+.feature-heading .text-muted {
+  font-weight: 300;
   font-size: 24px;
   display: inline-block;
+  color: #1B75BA;
 }
 @media (min-width: 768px) {
   .lead {
     font-size: 18px;
   }
 }
-.featurette p a,
+.feature p a,
 footer p a,
 .content p a {
   font-weight: bold !important;
-  color: #337ab7;
+  color: #1B75BA;
 }
-.featurette p a:hover,
+.feature p a:hover,
 footer p a:hover,
 .content p a:hover {
   color: white;
-  background-color: #337ab7;
+  background-color: #1B75BA;
   padding: 5px;
   margin: -5px;
   text-decoration: none;
 }
-.areas {
-  text-align: center;
+.area {
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
 }
-a {
-  font-weight: bold !important;
+.area:before {
+  content: "";
+  width: 80%;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 1px solid gray;
+  margin-left: 10%;
+}
+.area h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.area p:first-of-type {
+  width: 80%;
+}
+.area-icon {
+  float: left;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  color: #1B75BA;
+  text-align: center;
+  line-height: 70px;
+  font-size: 40px;
+  border-radius: 100%;
+  margin-bottom: 100px;
 }
 footer {
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   margin-bottom: 50px;
 }
@@ -6148,5 +6157,6 @@ a.btn {
   color: white !important;
   padding: 10px 16px !important;
   margin: 0 !important;
+  font-weight: normal !important;
+  font-family: "Montserrat", sans-serif;
 }
-/*# sourceMappingURL=style.css.map */
