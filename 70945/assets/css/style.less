@@ -1,4 +1,4 @@
-@import "bootstrap-variables.less";
+@import "variables.less";
 @import "bootstrap.less";
 @import "buttons.less";
 
@@ -9,6 +9,7 @@
 @light-blue: #15588C;
 @base-blue: #05406F;
 @dark-blue: #043053;
+@thanksgiving-bg: #EF4136;
 
 body {
 	font-family: @roboto;
@@ -28,24 +29,35 @@ a {
 }
 
 #weekly-intro {
-	background: url("../images/171Background.jpg") center -156px no-repeat;
-	background-color: #05406F;
 	height: 500px;
 	margin-bottom: 60px;
     color: #CCC;
 
-    a {
+    p a {
         color: #FFF;
         text-decoration: underline;
 
         &:hover {
-            background-color: @brand-primary;
+            background-color: black;
             color: white;
             padding: 5px;
             margin: -5px;
             text-decoration: none;
-        }	
+            text-decoration: underline;
+        }
+        
     }
+}
+
+.brand-bg {
+    background: url("../images/171Background.jpg") center -156px no-repeat;
+	background-color: @base-blue;
+    background-attachment: fixed;
+}
+
+.thanksgiving-bg {
+    background: url("../images/thanksgiving-bg.jpg") center -156px no-repeat !important;
+    background-color: @thanksgiving-bg !important;
 }
 
 .feature-heading {
@@ -126,7 +138,19 @@ a {
 footer {
     font-family: @montserrat;
 	font-size: 14px;
-	margin-bottom: 50px;
+    padding-top: 30px;
+	padding-bottom: 60px;
+    background-color: @gray-lighter;
+}
+
+.fun {
+    padding: 20px;
+    color: #AAA;
+}
+
+.top {
+    position: relative;
+    top: 40px;
 }
 
 // SYLLABUS STYLES
@@ -207,8 +231,8 @@ hr.line {
 }
 
 a.btn {
-	color: white !important;
-	padding: 10px 16px !important;
+//	color: white !important;
+//	padding: 10px 16px !important;
 	margin: 0 !important;
     font-weight: normal !important;
     font-family: "Montserrat", sans-serif;
