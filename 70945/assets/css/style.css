@@ -7140,3 +7140,9 @@ a.btn {
   font-weight: normal !important;
   font-family: "Montserrat", sans-serif;
 }
+@media print {
+  .pagebreak {
+    display: block;
+    page-break-before: always;
+  }
+}
