@@ -7,7 +7,7 @@
 		"uuidString": "5E9458DB-860B-403B-B79B-97CE699A5F6F"
 		}
 	],
-"creatorBuild": "25428",
+"creatorBuild": "25444",
 "files": {
 	"\/assets\/css\/bootstrap-variables.less": {
 		"aP": 0,
@@ -1050,16 +1050,16 @@
 		"oAP": "\/content\/exercises\/09-actions.html",
 		"oF": 0
 		},
-	"\/content\/exercises\/11-video.html": {
+	"\/content\/exercises\/11-videoclip.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/exercises\/11-video.html",
+		"oAP": "\/content\/exercises\/11-videoclip.html",
 		"oF": 0
 		},
-	"\/content\/exercises\/11-video.kit": {
+	"\/content\/exercises\/11-videoclip.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/content\/exercises\/11-video.html",
+		"oAP": "\/content\/exercises\/11-videoclip.html",
 		"oF": 0
 		},
 	"\/content\/overviews\/02-scanning-overview.html": {
@@ -1182,10 +1182,10 @@
 		"oAP": "\/content\/videos\/10-crosssection-video.html",
 		"oF": 0
 		},
-	"\/content\/videos\/11-video-video.html": {
+	"\/content\/videos\/11-videoclip-video.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/videos\/11-video-video.html",
+		"oAP": "\/content\/videos\/11-videoclip-video.html",
 		"oF": 0
 		},
 	"\/index.html": {
