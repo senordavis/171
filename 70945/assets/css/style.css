@@ -6909,12 +6909,22 @@ button.close {
   background-color: #B5441A;
   border-color: #792D11 #792D11 #792D11;
 }
-.btn.btn-web1 {
+.btn.btn-postcard {
+  color: #ffffff;
+  background-color: #372248;
+  border-color: #291935 #291935 #291935;
+}
+.btn.btn-postcard:hover {
+  color: #ffffff;
+  background-color: #321F42;
+  border-color: #291935 #291935 #291935;
+}
+.btn.btn-web {
   color: #ffffff;
   background-color: #8BC751;
   border-color: #466429 #466429 #466429;
 }
-.btn.btn-web1:hover {
+.btn.btn-web:hover {
   color: #ffffff;
   background-color: #68953D;
   border-color: #466429 #466429 #466429;
