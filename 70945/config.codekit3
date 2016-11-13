@@ -642,6 +642,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/postcard\/atlanta-postcard.jpg": {
+		"ft": 16384,
+		"iS": 57053,
+		"oA": 0,
+		"oAP": "\/assets\/images\/postcard\/atlanta-postcard.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/postcard\/california-postcard.jpg": {
+		"ft": 16384,
+		"iS": 169654,
+		"oA": 0,
+		"oAP": "\/assets\/images\/postcard\/california-postcard.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/PrintHeader.jpg": {
 		"ft": 16384,
 		"iS": 20569,
@@ -1132,6 +1148,18 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/content\/projects\/10-crosssection.html",
+		"oF": 0
+		},
+	"\/content\/projects\/12-postcard.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/projects\/12-postcard.html",
+		"oF": 0
+		},
+	"\/content\/projects\/12-postcard.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/content\/projects\/12-postcard.html",
 		"oF": 0
 		},
 	"\/content\/videos\/03-selections-video.html": {
