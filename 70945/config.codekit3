@@ -546,6 +546,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/news\/doh-banner.jpg": {
+		"ft": 16384,
+		"iS": 20319,
+		"oA": 0,
+		"oAP": "\/assets\/images\/news\/doh-banner.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/news\/layersheader.jpg": {
 		"ft": 16384,
 		"iS": 29544,
@@ -1076,6 +1084,12 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/content\/exercises\/11-videoclip.html",
+		"oF": 0
+		},
+	"\/content\/news\/opps.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/content\/news\/opps.html",
 		"oF": 0
 		},
 	"\/content\/overviews\/02-scanning-overview.html": {
