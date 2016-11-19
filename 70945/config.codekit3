@@ -1086,6 +1086,12 @@
 		"oAP": "\/content\/exercises\/11-videoclip.html",
 		"oF": 0
 		},
+	"\/content\/news\/opps.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/news\/opps.html",
+		"oF": 0
+		},
 	"\/content\/news\/opps.kit": {
 		"ft": 2048,
 		"oA": 0,
@@ -1228,6 +1234,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/content\/videos\/11-videoclip-video.html",
+		"oF": 0
+		},
+	"\/content\/videos\/12-postcard-video.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/videos\/12-postcard-video.html",
 		"oF": 0
 		},
 	"\/index.html": {
