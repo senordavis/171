@@ -6979,6 +6979,14 @@ a {
   margin-bottom: 60px;
   color: #CCC;
 }
+#weekly-intro div,
+#weekly-intro section {
+  height: 100% !important;
+}
+#weekly-intro section {
+  display: flex;
+  align-items: center;
+}
 #weekly-intro p a {
   color: #FFF;
   text-decoration: underline;
