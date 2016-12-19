@@ -7,7 +7,7 @@
 		"uuidString": "5E9458DB-860B-403B-B79B-97CE699A5F6F"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/assets\/css\/bootstrap-variables.less": {
 		"aP": 0,
@@ -1194,6 +1194,12 @@
 		"oAP": "\/content\/projects\/14-webdesign.html",
 		"oF": 0
 		},
+	"\/content\/projects\/15-selfportrait.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/projects\/15-selfportrait.html",
+		"oF": 0
+		},
 	"\/content\/projects\/15-selfportrait.kit": {
 		"ft": 2048,
 		"oA": 0,
@@ -1426,6 +1432,12 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/partials\/features\/_15-selfportrait.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_16-thankyou.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_16-thankyou.html",
 		"oF": 0
 		},
 	"\/partials\/features\/_catchup.kit": {
@@ -2151,6 +2163,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -2314,6 +2330,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -2679,6 +2699,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -2910,6 +2934,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -3743,6 +3771,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
