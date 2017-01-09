@@ -1422,16 +1422,16 @@
 		"oAP": "\/partials\/features\/_12-postcard.html",
 		"oF": 0
 		},
-	"\/partials\/features\/_14-webdesign.kit": {
+	"\/partials\/features\/_13-webdesign.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/features\/_14-webdesign.html",
+		"oAP": "\/partials\/features\/_13-webdesign.html",
 		"oF": 0
 		},
-	"\/partials\/features\/_15-selfportrait.kit": {
+	"\/partials\/features\/_14-selfportrait.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/features\/_15-selfportrait.html",
+		"oAP": "\/partials\/features\/_14-selfportrait.html",
 		"oF": 0
 		},
 	"\/partials\/features\/_16-thankyou.kit": {
@@ -1708,6 +1708,186 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/partials\/syllabus\/additional\/_plagiarism.html",
+		"oF": 0
+		},
+	"\/spring-break.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/spring-break.html",
+		"oF": 0
+		},
+	"\/thank-you.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/thank-you.html",
+		"oF": 0
+		},
+	"\/week-01.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-01.html",
+		"oF": 0
+		},
+	"\/week-01.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-01.html",
+		"oF": 0
+		},
+	"\/week-02.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-02.html",
+		"oF": 0
+		},
+	"\/week-02.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-02.html",
+		"oF": 0
+		},
+	"\/week-03.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-03.html",
+		"oF": 0
+		},
+	"\/week-03.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-03.html",
+		"oF": 0
+		},
+	"\/week-04.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-04.html",
+		"oF": 0
+		},
+	"\/week-04.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-04.html",
+		"oF": 0
+		},
+	"\/week-05.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-05.html",
+		"oF": 0
+		},
+	"\/week-05.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-05.html",
+		"oF": 0
+		},
+	"\/week-06.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-06.html",
+		"oF": 0
+		},
+	"\/week-06.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-06.html",
+		"oF": 0
+		},
+	"\/week-07.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-07.html",
+		"oF": 0
+		},
+	"\/week-07.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-07.html",
+		"oF": 0
+		},
+	"\/week-08.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-08.html",
+		"oF": 0
+		},
+	"\/week-08.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-08.html",
+		"oF": 0
+		},
+	"\/week-09.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-09.html",
+		"oF": 0
+		},
+	"\/week-09.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-09.html",
+		"oF": 0
+		},
+	"\/week-10.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-10.html",
+		"oF": 0
+		},
+	"\/week-10.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-10.html",
+		"oF": 0
+		},
+	"\/week-11.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-11.html",
+		"oF": 0
+		},
+	"\/week-11.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-11.html",
+		"oF": 0
+		},
+	"\/week-12.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-12.html",
+		"oF": 0
+		},
+	"\/week-12.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-12.html",
+		"oF": 0
+		},
+	"\/week-13.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-13.html",
+		"oF": 0
+		},
+	"\/week-13.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-13.html",
+		"oF": 0
+		},
+	"\/week-14.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/week-14.html",
+		"oF": 0
+		},
+	"\/week-14.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/week-14.html",
 		"oF": 0
 		}
 	},
