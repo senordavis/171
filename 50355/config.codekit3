@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "5E9458DB-860B-403B-B79B-97CE699A5F6F"
+		"uuidString": "B25172C9-4D77-46EC-B11D-BD83EE13299C"
 		}
 	],
 "creatorBuild": "25479",
@@ -16,10 +16,10 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 0,
-		"oA": 0,
+		"ma": 1,
+		"oA": 1,
 		"oAP": "\/assets\/css\/bootstrap-variables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
@@ -33,10 +33,10 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/assets\/css\/bootstrap.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
@@ -66,7 +66,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/coursepack-ck.css",
+		"oAP": "\/assets\/css\/coursepack-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -76,7 +76,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/style-ck.css",
+		"oAP": "\/assets\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -93,26 +93,9 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/assets\/css\/style.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/assets\/css\/variables.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/variables.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -148,15 +131,9 @@
 		"oAP": "\/assets\/fonts\/glyphicons-halflings-regular.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/glyphicons-halflings-regular.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/glyphicons-halflings-regular.woff2",
-		"oF": 0
-		},
 	"\/assets\/images\/171Background.jpg": {
 		"ft": 16384,
-		"iS": 50403,
+		"iS": 34485,
 		"oA": 0,
 		"oAP": "\/assets\/images\/171Background.jpg",
 		"oF": 0,
@@ -172,7 +149,7 @@
 		},
 	"\/assets\/images\/arts171-footer-logo.png": {
 		"ft": 32768,
-		"iS": 2933,
+		"iS": 4920,
 		"oA": 0,
 		"oAP": "\/assets\/images\/arts171-footer-logo.png",
 		"oF": 0,
@@ -180,7 +157,7 @@
 		},
 	"\/assets\/images\/arts171-logo.png": {
 		"ft": 32768,
-		"iS": 4907,
+		"iS": 4903,
 		"oA": 0,
 		"oAP": "\/assets\/images\/arts171-logo.png",
 		"oF": 0,
@@ -216,7 +193,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/crosssection\/observatory-cross-section.jpeg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/features\/actions.jpg": {
 		"ft": 16384,
@@ -402,6 +379,38 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/footer-spacer.gif": {
+		"ft": 4194304,
+		"iS": 46,
+		"oA": 0,
+		"oAP": "\/assets\/images\/footer-spacer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/icon-content.png": {
+		"ft": 32768,
+		"iS": 1320,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon-content.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/icon-doc.png": {
+		"ft": 32768,
+		"iS": 3001,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon-doc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/icon-dropbox.png": {
+		"ft": 32768,
+		"iS": 1538,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon-dropbox.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/layers\/align-options.jpg": {
 		"ft": 16384,
 		"iS": 38386,
@@ -496,7 +505,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/layers\/new-layer-dialog.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/news\/actions-banner.jpg": {
 		"ft": 16384,
@@ -546,11 +555,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/images\/news\/doh-banner.jpg": {
+	"\/assets\/images\/news\/D2Lproblems.jpg": {
 		"ft": 16384,
-		"iS": 20319,
+		"iS": 33999,
 		"oA": 0,
-		"oAP": "\/assets\/images\/news\/doh-banner.jpg",
+		"oAP": "\/assets\/images\/news\/D2Lproblems.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -560,7 +569,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/news\/layersheader.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/news\/oops-Banner.jpg": {
 		"ft": 16384,
@@ -568,7 +577,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/news\/oops-Banner.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/news\/painting-banner.jpg": {
 		"ft": 16384,
@@ -592,7 +601,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/news\/scanning-demo-header.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/news\/selectionsheader.jpg": {
 		"ft": 16384,
@@ -628,7 +637,7 @@
 		},
 	"\/assets\/images\/news\/week116-banner.jpg": {
 		"ft": 16384,
-		"iS": 19369,
+		"iS": 20338,
 		"oA": 0,
 		"oAP": "\/assets\/images\/news\/week116-banner.jpg",
 		"oF": 0,
@@ -650,25 +659,9 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/images\/postcard\/atlanta-postcard.jpg": {
-		"ft": 16384,
-		"iS": 57053,
-		"oA": 0,
-		"oAP": "\/assets\/images\/postcard\/atlanta-postcard.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/images\/postcard\/california-postcard.jpg": {
-		"ft": 16384,
-		"iS": 169654,
-		"oA": 0,
-		"oAP": "\/assets\/images\/postcard\/california-postcard.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/assets\/images\/PrintHeader.jpg": {
 		"ft": 16384,
-		"iS": 20569,
+		"iS": 69583,
 		"oA": 0,
 		"oAP": "\/assets\/images\/PrintHeader.jpg",
 		"oF": 0,
@@ -776,7 +769,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/selections\/flag.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/selections\/flowers.jpg": {
 		"ft": 16384,
@@ -842,21 +835,53 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/images\/thanksgiving-bg.jpg": {
-		"ft": 16384,
-		"iS": 63248,
+	"\/assets\/images\/slides\/layersSlide.png": {
+		"ft": 32768,
+		"iS": 29442,
 		"oA": 0,
-		"oAP": "\/assets\/images\/thanksgiving-bg.jpg",
+		"oAP": "\/assets\/images\/slides\/layersSlide.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/slides\/psIntroSlide.png": {
+		"ft": 32768,
+		"iS": 21162,
+		"oA": 0,
+		"oAP": "\/assets\/images\/slides\/psIntroSlide.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/slides\/scanningSlide.png": {
+		"ft": 32768,
+		"iS": 19258,
+		"oA": 0,
+		"oAP": "\/assets\/images\/slides\/scanningSlide.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/slides\/selectionsSlide.png": {
+		"ft": 32768,
+		"iS": 19809,
+		"oA": 0,
+		"oAP": "\/assets\/images\/slides\/selectionsSlide.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/slides\/welcomeSlide.png": {
+		"ft": 32768,
+		"iS": 25820,
+		"oA": 0,
+		"oAP": "\/assets\/images\/slides\/welcomeSlide.png",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/images\/welcomeBanner.png": {
 		"ft": 32768,
-		"iS": 57676,
+		"iS": 50656,
 		"oA": 0,
 		"oAP": "\/assets\/images\/welcomeBanner.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/js\/bootstrap.js": {
 		"ft": 64,
@@ -885,15 +910,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/bootstrap-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/bootstrap-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/assets\/js\/min\/tawk-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -912,18 +928,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/content\/docs\/resources.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/content\/docs\/resources.html",
-		"oF": 0
-		},
-	"\/content\/docs\/resources.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/docs\/resources.html",
-		"oF": 0
-		},
 	"\/content\/docs\/syllabus.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -934,6 +938,138 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/content\/docs\/syllabus.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_additional.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_additional.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_attendance.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_attendance.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_calendar.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_calendar.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_communication.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_communication.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_course-description.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_course-description.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_disability-statement.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_disability-statement.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_enrollment.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_enrollment.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_evalutation-components.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_evalutation-components.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_grading.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_grading.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_instruction-methods.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_instruction-methods.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_instructional-materials.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_instructional-materials.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_late-work.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_late-work.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_learning-outcomes.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_learning-outcomes.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_prerequisites.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_prerequisites.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_student-rules.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_student-rules.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_textbook.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_textbook.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/_transfer.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/_transfer.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/additional\/_acceptable-use.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/additional\/_acceptable-use.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/additional\/_honesty.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/additional\/_honesty.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/additional\/_labs.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/additional\/_labs.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/additional\/_netiquette.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/additional\/_netiquette.html",
+		"oF": 0
+		},
+	"\/content\/docs\/syllabus\/additional\/_plagiarism.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/content\/docs\/syllabus\/additional\/_plagiarism.html",
 		"oF": 0
 		},
 	"\/content\/docs\/welcome.html": {
@@ -971,30 +1107,6 @@
 		"oA": 2,
 		"oAP": "\/content\/downloads\/06-photorestoration\/photo-restoration.psd",
 		"oF": 0
-		},
-	"\/content\/downloads\/07-channels\/Happy-Woman-1.jpg": {
-		"ft": 16384,
-		"iS": 2963980,
-		"oA": 0,
-		"oAP": "\/content\/downloads\/07-channels\/Happy-Woman-1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/content\/downloads\/07-channels\/Happy-Woman-2.jpg": {
-		"ft": 16384,
-		"iS": 4076290,
-		"oA": 0,
-		"oAP": "\/content\/downloads\/07-channels\/Happy-Woman-2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/content\/downloads\/07-channels\/Lotus.jpg": {
-		"ft": 16384,
-		"iS": 278737,
-		"oA": 0,
-		"oAP": "\/content\/downloads\/07-channels\/Lotus.jpg",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/content\/exercises\/02-scanning.html": {
 		"ft": 8192,
@@ -1068,64 +1180,82 @@
 		"oAP": "\/content\/exercises\/09-actions.html",
 		"oF": 0
 		},
-	"\/content\/exercises\/11-videoclip.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/exercises\/11-videoclip.html",
-		"oF": 0
-		},
-	"\/content\/exercises\/11-videoclip.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/exercises\/11-videoclip.html",
-		"oF": 0
-		},
-	"\/content\/news\/opps.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/news\/opps.html",
-		"oF": 0
-		},
-	"\/content\/news\/opps.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/news\/opps.html",
-		"oF": 0
-		},
-	"\/content\/overviews\/02-scanning-overview.html": {
+	"\/content\/exercises\/11-video.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/content\/overviews\/02-scanning-overview.html",
+		"oAP": "\/content\/exercises\/11-video.html",
 		"oF": 0
 		},
-	"\/content\/overviews\/02-scanning-overview.kit": {
+	"\/content\/exercises\/11-video.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/content\/overviews\/02-scanning-overview.html",
+		"oAP": "\/content\/exercises\/11-video.html",
 		"oF": 0
 		},
-	"\/content\/overviews\/03-selections-overview.html": {
+	"\/content\/news\/116-intro.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/content\/overviews\/03-selections-overview.html",
+		"oAP": "\/content\/news\/116-intro.html",
 		"oF": 0
 		},
-	"\/content\/overviews\/03-selections-overview.kit": {
+	"\/content\/news\/116-intro.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/content\/overviews\/03-selections-overview.html",
+		"oAP": "\/content\/news\/116-intro.html",
 		"oF": 0
 		},
-	"\/content\/overviews\/04-layers-overview.html": {
+	"\/content\/news\/316-intro.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/content\/overviews\/04-layers-overview.html",
+		"oAP": "\/content\/news\/316-intro.html",
 		"oF": 0
 		},
-	"\/content\/overviews\/04-layers-overview.kit": {
+	"\/content\/news\/316-intro.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/content\/overviews\/04-layers-overview.html",
+		"oAP": "\/content\/news\/316-intro.html",
+		"oF": 0
+		},
+	"\/content\/news\/516-intro.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/content\/news\/516-intro.html",
+		"oF": 0
+		},
+	"\/content\/news\/516-intro.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/content\/news\/516-intro.html",
+		"oF": 0
+		},
+	"\/content\/overviews\/2-color-gamut-overview.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/content\/overviews\/2-color-gamut-overview.html",
+		"oF": 0
+		},
+	"\/content\/overviews\/2-color-gamut-podcast.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/content\/overviews\/2-color-gamut-podcast.html",
+		"oF": 0
+		},
+	"\/content\/overviews\/2-scanning-overview.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/content\/overviews\/2-scanning-overview.html",
+		"oF": 0
+		},
+	"\/content\/overviews\/3-selections-overview.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/content\/overviews\/3-selections-overview.html",
+		"oF": 0
+		},
+	"\/content\/overviews\/4-layers-overview.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/content\/overviews\/4-layers-overview.html",
 		"oF": 0
 		},
 	"\/content\/projects\/06-photorestoration.html": {
@@ -1164,33 +1294,21 @@
 		"oAP": "\/content\/projects\/10-crosssection.html",
 		"oF": 0
 		},
-	"\/content\/projects\/12-postcard.html": {
+	"\/content\/projects\/12-webdesign.html": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/projects\/12-postcard.html",
+		"oA": 0,
+		"oAP": "\/content\/projects\/12-webdesign.html",
 		"oF": 0
 		},
-	"\/content\/projects\/12-postcard.kit": {
+	"\/content\/projects\/12-webdesign.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/content\/projects\/12-postcard.html",
-		"oF": 0
-		},
-	"\/content\/projects\/14-webdesign.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/projects\/14-webdesign.html",
-		"oF": 0
-		},
-	"\/content\/projects\/14-webdesign.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/projects\/14-webdesign.html",
+		"oAP": "\/content\/projects\/12-webdesign.html",
 		"oF": 0
 		},
 	"\/content\/projects\/15-selfportrait.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/content\/projects\/15-selfportrait.html",
 		"oF": 0
 		},
@@ -1198,6 +1316,24 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/content\/projects\/15-selfportrait.html",
+		"oF": 0
+		},
+	"\/content\/videos\/00-upload-guide.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/content\/videos\/00-upload-guide.html",
+		"oF": 0
+		},
+	"\/content\/videos\/01-intro-video.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/content\/videos\/01-intro-video.html",
+		"oF": 0
+		},
+	"\/content\/videos\/02-scanning-video.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/content\/videos\/02-scanning-video.html",
 		"oF": 0
 		},
 	"\/content\/videos\/03-selections-video.html": {
@@ -1248,208 +1384,16 @@
 		"oAP": "\/content\/videos\/10-crosssection-video.html",
 		"oF": 0
 		},
-	"\/content\/videos\/11-videoclip-video.html": {
+	"\/content\/videos\/11-video-video.html": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/videos\/11-videoclip-video.html",
-		"oF": 0
-		},
-	"\/content\/videos\/12-postcard-video.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/videos\/12-postcard-video.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/spring-break.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/spring-break.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/spring-break.kit": {
-		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/content\/weeks\/spring-break.html",
+		"oAP": "\/content\/videos\/11-video-video.html",
 		"oF": 0
 		},
-	"\/content\/weeks\/thank-you.html": {
+	"\/content\/videos\/12-webdesign-video.html": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/thank-you.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/thank-you.kit": {
-		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/content\/weeks\/thank-you.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-01.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-01.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-01.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-01.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-02.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-02.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-02.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-02.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-03.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-03.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-03.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-03.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-04.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-04.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-04.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-04.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-05.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-05.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-05.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-05.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-06.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-06.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-06.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-06.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-07.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-07.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-07.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-07.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-08.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-08.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-08.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-08.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-09.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-09.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-09.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-09.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-10.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-10.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-10.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-10.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-11.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-11.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-11.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-11.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-12.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-12.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-12.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-12.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-13.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-13.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-13.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-13.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-14.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/weeks\/week-14.html",
-		"oF": 0
-		},
-	"\/content\/weeks\/week-14.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/content\/weeks\/week-14.html",
+		"oAP": "\/content\/videos\/12-webdesign-video.html",
 		"oF": 0
 		},
 	"\/index.html": {
@@ -1470,10 +1414,16 @@
 		"oAP": "\/partials\/_areas.html",
 		"oF": 0
 		},
-	"\/partials\/_end.kit": {
+	"\/partials\/_carousel-controls.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/_end.html",
+		"oAP": "\/partials\/_carousel-controls.html",
+		"oF": 0
+		},
+	"\/partials\/_firehose.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_firehose.html",
 		"oF": 0
 		},
 	"\/partials\/_footer.kit": {
@@ -1482,10 +1432,16 @@
 		"oAP": "\/partials\/_footer.html",
 		"oF": 0
 		},
-	"\/partials\/_fun.kit": {
+	"\/partials\/_indicators.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/_fun.html",
+		"oAP": "\/partials\/_indicators.html",
+		"oF": 0
+		},
+	"\/partials\/_officehours.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_officehours.html",
 		"oF": 0
 		},
 	"\/partials\/_rubric.kit": {
@@ -1498,12 +1454,6 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/partials\/_scripts.html",
-		"oF": 0
-		},
-	"\/partials\/_start-local.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/_start-local.html",
 		"oF": 0
 		},
 	"\/partials\/_start.kit": {
@@ -1524,112 +1474,40 @@
 		"oAP": "\/partials\/_upload-warning.html",
 		"oF": 0
 		},
-	"\/partials\/_variables-null.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/_variables-null.html",
-		"oF": 0
-		},
 	"\/partials\/_variables.kit": {
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/partials\/_variables.html",
 		"oF": 0
 		},
-	"\/partials\/features\/_01-welcome.kit": {
+	"\/partials\/features\/_actions.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/features\/_01-welcome.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_02-scanning.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_02-scanning.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_03-selections.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_03-selections.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_04-layers.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_04-layers.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_05-colorcorrection.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_05-colorcorrection.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_06-photorestoration.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_06-photorestoration.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_07-channels.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_07-channels.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_08-painting.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_08-painting.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_09-actions.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_09-actions.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_10-crosssection.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_10-crosssection.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_11-videoclip.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_11-videoclip.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_12-postcard.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_12-postcard.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_13-webdesign.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_13-webdesign.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_14-selfportrait.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_14-selfportrait.html",
-		"oF": 0
-		},
-	"\/partials\/features\/_16-thankyou.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/features\/_16-thankyou.html",
+		"oAP": "\/partials\/features\/_actions.html",
 		"oF": 0
 		},
 	"\/partials\/features\/_catchup.kit": {
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/partials\/features\/_catchup.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_channels.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_channels.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_colorcorrection.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_colorcorrection.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_crosssection.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_crosssection.html",
 		"oF": 0
 		},
 	"\/partials\/features\/_discussion.kit": {
@@ -1644,6 +1522,48 @@
 		"oAP": "\/partials\/features\/_introvideo.html",
 		"oF": 0
 		},
+	"\/partials\/features\/_layers.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_layers.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_painting.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_painting.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_photorestoration.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_photorestoration.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_scanning.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_scanning.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_selections.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_selections.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_selfportrait-14.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_selfportrait-14.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_selfportrait.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_selfportrait.html",
+		"oF": 0
+		},
 	"\/partials\/features\/_springbreak.kit": {
 		"ft": 2048,
 		"oA": 1,
@@ -1654,6 +1574,30 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/partials\/features\/_thanksgivingbreak.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_video.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_video.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_webdesign.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_webdesign.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_webdesign2.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_webdesign2.html",
+		"oF": 0
+		},
+	"\/partials\/features\/_welcome.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/features\/_welcome.html",
 		"oF": 0
 		},
 	"\/partials\/slides\/_actions-slide.kit": {
@@ -1764,136 +1708,118 @@
 		"oAP": "\/partials\/slides\/_welcome-slide.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_additional.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_additional.html",
+	"\/test.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/test.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_attendance.kit": {
+	"\/test.kit": {
 		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_attendance.html",
+		"oA": 0,
+		"oAP": "\/test.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_calendar.kit": {
+	"\/weeks\/_springbreak.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_calendar.html",
+		"oAP": "\/weeks\/_springbreak.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_communication.kit": {
+	"\/weeks\/_thanksgivingbreak.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_communication.html",
+		"oAP": "\/weeks\/_thanksgivingbreak.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_course-description.kit": {
+	"\/weeks\/_week1.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_course-description.html",
+		"oAP": "\/weeks\/_week1.html",
+		"oF": 1
+		},
+	"\/weeks\/_week10.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/weeks\/_week10.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_disability-statement.kit": {
+	"\/weeks\/_week11.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_disability-statement.html",
+		"oAP": "\/weeks\/_week11.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_enrollment.kit": {
+	"\/weeks\/_week12.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_enrollment.html",
+		"oAP": "\/weeks\/_week12.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_evalutation-components.kit": {
+	"\/weeks\/_week13.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_evalutation-components.html",
+		"oAP": "\/weeks\/_week13.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_grading.kit": {
+	"\/weeks\/_week14.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_grading.html",
+		"oAP": "\/weeks\/_week14.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_instruction-methods.kit": {
+	"\/weeks\/_week15.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_instruction-methods.html",
+		"oAP": "\/weeks\/_week15.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_instructional-materials.kit": {
+	"\/weeks\/_week2.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_instructional-materials.html",
+		"oAP": "\/weeks\/_week2.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_late-work.kit": {
+	"\/weeks\/_week3.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_late-work.html",
+		"oAP": "\/weeks\/_week3.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_learning-outcomes.kit": {
+	"\/weeks\/_week4.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_learning-outcomes.html",
+		"oAP": "\/weeks\/_week4.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_prerequisites.kit": {
+	"\/weeks\/_week5.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_prerequisites.html",
+		"oAP": "\/weeks\/_week5.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_student-rules.kit": {
+	"\/weeks\/_week6.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_student-rules.html",
+		"oAP": "\/weeks\/_week6.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_textbook.kit": {
+	"\/weeks\/_week7.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_textbook.html",
+		"oAP": "\/weeks\/_week7.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/_transfer.kit": {
+	"\/weeks\/_week8.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/_transfer.html",
+		"oAP": "\/weeks\/_week8.html",
 		"oF": 0
 		},
-	"\/partials\/syllabus\/additional\/_acceptable-use.kit": {
+	"\/weeks\/_week9.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/partials\/syllabus\/additional\/_acceptable-use.html",
-		"oF": 0
-		},
-	"\/partials\/syllabus\/additional\/_honesty.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/syllabus\/additional\/_honesty.html",
-		"oF": 0
-		},
-	"\/partials\/syllabus\/additional\/_labs.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/syllabus\/additional\/_labs.html",
-		"oF": 0
-		},
-	"\/partials\/syllabus\/additional\/_netiquette.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/syllabus\/additional\/_netiquette.html",
-		"oF": 0
-		},
-	"\/partials\/syllabus\/additional\/_plagiarism.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/partials\/syllabus\/additional\/_plagiarism.html",
+		"oAP": "\/weeks\/_week9.html",
 		"oF": 0
 		}
 	},
@@ -1902,14 +1828,14 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 500056066,
-	"displayValue": "171-80319",
+	"creationDate": 505870570,
+	"displayValue": "171-50355",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/assets\/images\/171projectIcon.png"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -3115,7 +3041,7 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', 'avoid-escape'"
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
 			},
 		"radix": {
 			"active": 0,
@@ -3127,7 +3053,7 @@
 			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-yield": {
 			"active": 0,
@@ -3231,7 +3157,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "171.local",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3597,13 +3523,13 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
-		"autoOutputPathFilenamePattern": "*-ck.css",
+		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
@@ -3703,7 +3629,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"criticStyle": 0,
-		"enableFootnotes": 1,
+		"enableFootnotes": 0,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
@@ -3805,7 +3731,7 @@
 		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
-		"moduleType": 2,
+		"moduleType": 0,
 		"noImplicitAny": 0,
 		"preserveConstEnums": 0,
 		"removeComments": 0,
@@ -3985,7 +3911,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "50355"
 	},
 "settingsFileVersion": "3"
 }
