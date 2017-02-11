@@ -14,8 +14,8 @@ $week03_ends   = "01282017";
 $week04_begins = "01292017";
 $week04_ends   = "02042017";
 
-$week05_ends   = "02052017";
-$week05_begins = "02112017";
+$week05_begins = "02052017";
+$week05_ends   = "02112017";
 
 $week06_begins = "02122017";
 $week06_ends   = "02182017";
