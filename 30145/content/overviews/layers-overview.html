@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ARTS 171 is a hands-on course utilizing Apple Macintosh computers to provide the student with an introductory understanding of Adobe Photoshop CC image manipulation software. The course will expose students to computer manipulation of a variety of images, scanning, resolution, and color issues. Basic design skills and foundational color knowledge are necessary for enrollment.">
+    <meta name="author" content="Mike Davis">
+
+    <title>ARTS 171 | Layers Overview </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,700" rel="stylesheet">    
+    <link href="https://mdavis.in/171/d2l/30145/assets/css/style.css" rel="stylesheet">
+
+  </head>
+  
+  <body>
+<!-- START Content -->
+<div class="container">
+
+<p class="lead">Photoshop gives you two ways to edit files: destructively and nondestructively. Destructive editing means you're changing the original image&mdash;once you exceed the History panel's limit those changes are permanent. Nondestructive editing means you're not changing the original file and you can go back to it at any time.</p>
+
+<p class="lead">Using layers lets you do the following:</p>
+<ul>
+<li>Resize an object independently of everything else in the document, without changing the document&rsquo;s size</li>
+<li>Move an object around without moving anything else</li>
+<li>Combine several images into one document to make a collage</li>
+<li>Hide parts of an image so you can see through to layers below</li>
+<li>Change the opacity of a layer to make it more or less see-through</li>
+<li>Change the way colors on various layers interact with one another</li>
+<li>Fix the color and lighting of a photo (or just parts of it) without harming the original</li>
+</ul>
+
+<hr />
+
+<p></p>
+<h2>Types of Layers</h2>
+<p>Layers come in many flavors, all of which have their own special purpose:</p>
+<dl><dt>Image Layers</dt><dd>
+<p>These layers are pixel-based and you'll work with them all the time. If you open a photo or add a new, empty layer and paint on it you have an Image layer.</p>
+</dd><dt>Type Layers</dt><dd>
+<p>In Photoshop, text isn't made from pixels, so it gets its own special kind of layer. Anytime you use the Type tool, Photoshop automatically creates a Type layer.</p>
+</dd><dt>Shape Layers</dt><dd>
+<p>These layers are vector-based, meaning they're not made from pixels. Not only can you create useful shapes quickly, but you can also resize them without losing quality and change their fill color by double-clicking their layer thumbnails or using CS6's new Fill and Stroke settings in the Options bar. Photoshop creates a Shape layer automatically anytime you use a shape tool.</p>
+</dd><dt>Fill Layers</dt><dd>
+<p>Changes or adds color to an image. They let you fill a layer with a solid color, gradient, or Pattern. Just like Shape layers, you can double-click a Fill layer's thumbnail to change its color anytime.</p>
+</dd><dt>Adjustment Layers</dt><dd>
+<p>Lets you apply color and brightness changes to all the layers underneath them, but the changes actually happen on the Adjustment layer. For example, if you want to change a color image to black and white, you can use a Black &amp; White Adjustment layer and the color removal happens on its own layer, leaving the original unharmed. These layers don't contain any pixels, just instructions that tell Photoshop what changes you want to make. You can access these in the Adjustments panel on the right side of the Photoshop window (if you don't see it, choose Window&rarr;Adjustments), via the Adjustment layer menu at the bottom of the Layers panel (it looks like a half-black/half-white circle), or in the Layer menu (choose Layer&rarr;New Adjustment layer).</p>
+</dd><dt>Smart Object Layers</dt><dd>
+<p>Adobe refers to this kind of layer as a container. Smart Objects let you work with files that weren't created with Photoshop, like Raw and vector files. The best thing about a Smart Object is that you can swap and resize its content without destroying its quality (as long as you don't exceed the file's original pixel dimensions, unless it's a vector).</p>
+</dd><dt>Video Layers</dt><dd>
+<p>New in CS6 is the ability to import, edit, and export video (previously, these options were available only in the Extended version). You can use Photoshop to edit and apply custom color effects and filters to individual video frames as easily as you can any other layer type.</p>
+</dd><dt>3D Layers</dt><dd>
+<p>In the Extended version of Photoshop, you can import 3D files into their own special layers, which is helpful if you want to create 3D objects or paint them.</p>
+</dd></dl><hr />
+<p></p>
+<h2>Adding New Layers</h2>
+<p>Photoshop gives you five ways to create a new layer:</p>
+<ul>
+<li>
+<p>Click the &ldquo;Create a new layer&rdquo; button at the bottom of the Layers panel<br />(it looks like a piece of paper with a folded corner).</p>
+</li>
+<li>
+<p>Choose Layer&rarr;New&rarr;Layer.</p>
+</li>
+<li>
+<p>Choose New Layer from the Layers panel's menu.</p>
+</li>
+<li>
+<p>Press <strong class="nowrap">Shift-⌘-N</strong> (Shift+Ctrl+N on a PC).</p>
+</li>
+<li>
+<p>Drag a file from your desktop into an open Photoshop document; the item you dragged appears on its own layer in the document&mdash;as a Smart Object to boot.</p>
+</li>
+</ul>
+<div class="row">
+<div class="col-sm-6">
+<p>In the New Layer dialog box (top), you can give your layer a name and a colored label. Color-coding layers makes them easier to spot in a long Layers panel You can double-click a layer's name to rename it, and turn its visibility on or off by clicking the little eye icon to the left of its thumbnail. The new layer's thumbnail shown here is the checkerboard pattern because the layer is empty and transparent.</p>
+</div>
+<div class="col-sm-6"><img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/new-layer-dialog.jpg" alt="Screenshot of new layer dialog box" class="img-responsive thumbnail" /></div>
+</div>
+<hr />
+<p></p>
+<h2>Duplicating a Layer</h2>
+<p>Sometimes while you are working in Photoshop it will be necessary to duplicate a layer to perform some modification that will not destructively alter the original layer. To do so you will duplicate the layer.</p>
+<p>To duplicate a layer Press <strong class="nowrap">⌘-J</strong> (Ctrl+J on a PC) or choose Layer &rarr; New &rarr; &ldquo;Layer via Copy&rdquo; to copy the active layer onto another layer just like it.</p>
+<p>In Photoshop CS6, you can duplicate multiple layers at the same time. Just activate the layers by Shift-clicking or <strong class="nowrap">⌘-clicking</strong> (Ctrl-clicking) them, and then press <strong class="nowrap">⌘-J</strong> (Ctrl+J). Think of this as &ldquo;jumping&rdquo; the content onto another layers&mdash;it makes the keyboard shortcut easier to remember.</p>
+<p>To duplicate part of layer, create a selection and press <strong class="nowrap">⌘-J</strong> (Ctrl+J) to move your selection onto its own layer. If you want to delete the selected area from the original layer and duplicate it onto another layer at the same time, press <strong class="nowrap">Shift-⌘-J</strong> (Shift+Ctrl+J). You can think of this trick as cutting to another layer since you'll have a hole in the original layer where the selection used to be.</p>
+<hr />
+<p></p>
+<h2>Copying and Pasting Layers</h2>
+<p>You can use the regular copy and paste commands to move whole or partial layers between Photoshop documents, too:</p>
+<ul>
+<li>
+<p>To copy and paste a whole layer into another document, choose <strong>Select&rarr;All</strong> (or press <strong class="nowrap">⌘-A</strong> [Ctrl+A]) to select everything on the layer and then press ⌘-C (Ctrl+C) or choose <strong>Copy</strong> from the Edit menu. Next, click the other document's window and press <strong class="nowrap">⌘-V</strong> (Ctrl+V) or choose <strong>Paste</strong> from the Edit menu, to add the layer.</p>
+</li>
+<li>
+<p>To copy part of a layer into another document, create your selection first and then press <strong class="nowrap">⌘-C</strong> (Ctrl+C on a PC) to copy it. Then open the other document and press <strong class="nowrap">⌘-V</strong> (Ctrl+V); Photoshop pastes those pixels onto a new layer. Photoshop also includes a Paste Special option in the Edit menu, which is incredibly handy when you're combining images.</p>
+</li>
+</ul>
+<hr />
+<p></p>
+<h2>Filling a Layer with Color</h2>
+<p>To fill an existing layer with color, choose Edit&rarr;Fill. In the resulting Fill dialog box pick a color from the Use pop-up menu and then click OK. You can also fill the active layer with your foreground color by pressing Option-Delete (Alt+Backspace on a PC), or your background color by pressing <strong>⌘-Delete</strong> (Ctrl+Delete on a PC).</p>
+<p>If you're not sure which color you want to use, choose <strong>Layer&rarr;New Fill Layer&rarr;Solid Color</strong>, or click the half-black/half-white circle at the bottom of the Layers panel and choose Solid Color.</p>
+<p>In the New Layer dialog box that appears, name the layer and then click OK. Photoshop then displays the Color Picker so you can choose a fill color. If you decide to change this color later, double-click the Fill layer's thumbnail, and Photoshop opens the Color Picker so you can choose a new color or grab one from your image. Fill layers also come with their own layer masks, making it super simple to hide part of the layer if you need to.</p>
+<p>Fill layers aren't just for adding solid color; you can use them to create a gradient or pattern-filled background To change the gradient or pattern, just double-click the Fill layer's thumbnail to make Photoshop display the appropriate dialog box&mdash;Gradient Fill or Pattern Fill. By adjusting the Scale setting in these dialog boxes, you can make the gradient or pattern bigger or smaller.</p>
+<p>You can also add a Fill layer via the Adjustment layer menu at the bottom of the Layers panel (it looks like a half-black/ half-white circle). You'll find Solid Color, Gradient, and Pattern listed at the very top of the resulting menu.</p>
+<hr />
+<p></p>
+<h2>Aligning Layers</h2>
+<p>When you need to position layers, Photoshop has several tools that can help you get them lined up just right. The program tries to help you align layers by snapping the one you're moving to the boundaries (content edges) of other layers. As you drag a layer with the Move tool, Photoshop tries to pop the layer into place when you get near another layer's edge. (To make the program stop popping them into place, choose View&rarr;Snap.)</p>
+<p>If you'd like to see the boundaries of your layer, press <strong>V</strong> to activate the Move tool, and then in the Options bar turn on the Show Transform Controls checkbox.</p>
+<div class="row">
+<div class="col-sm-5 col-sm-push-7">
+<p>You can also use a set of alignment tools that appear in the Options bar. These tools/options only work when you have the move tool active with two or more layers selected, or you have made a selection.</p>
+<p>If you forget what a button is for, put your cursor over it and within a second or two, Photoshop displays a yellow tooltip telling you what that button does.</p>
+</div>
+<div class="col-sm-7 col-sm-pull-5"><br /> <img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/align-options.jpg" alt="Screenshot of align tools in the Options bar" class="img-responsive thumbnail" /></div>
+</div>
+<div class="row">
+<div class="col-sm-5 col-sm-push-7">
+<p>In the adjacent image of the guitars, you can see how all of these align tools work. Each guitar lives on its own layer, making it easier to see the effect of the various alignment settings.</p>
+</div>
+<div class="col-sm-7 col-sm-pull-5"><img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/align-results.jpg" alt="Image showing the effects of the align tools from the options bar" class="img-responsive thumbnail" /></div>
+</div>
+<hr />
+<p></p>
+<h2>Moving Layers Between Document</h2>
+<p>In addition to copying and pasting layers from one document to another, you can also drag and drop them straight from the Layers panel to another document. When you do that, Photoshop leaves the layer in the original document and places a copy in the target document, so you don't have to worry about losing anything from either file. This technique is really helpful if you want to create collages, swap backgrounds, or share color corrections across documents.</p>
+<p>Do move a layer to a new document follow these steps:</p>
+<ol>
+<li>
+<p><strong>Open the two documents you want to combine.</strong></p>
+</li>
+<li>
+<p><strong>Choose Window&rarr;Arrange and choose one of the 2-up display options.</strong> <br /> To drag a layer from one document to another document that contains multiple layers, you have to be able to see both documents. Choosing one of the 2- up display options or &ldquo;Float All in Windows&rdquo; makes Photoshop rearrange your document windows so you can see them both at the same time.</p>
+</li>
+<li>
+<p><strong>Click the document that contains the layer you want to move, and then drag the layer's thumbnail onto the other document.</strong> <br /> As you drag, your cursor turns into a tiny closed fist When Photoshop highlights the inside border of the destination window in light gray, let go of your mouse button to make Photoshop add the layer to that document. (To center the moved layer perfectly in its new home, hold the Shift key as you drag the layer between documents.)</p>
+</li>
+</ol>
+<p></p>
+<hr />
+<h1>Managing Layers</h1>
+<p class="lead">If one thing's for certain in Photoshop, it's that your Layers panel will get long and unwieldy in a hurry. In general, you should place everything on its own layer. Below are a few techniques for organization.</p>
+<hr />
+<p></p>
+<h2>Naming and Color Coding Layers</h2>
+<p>The simplest way to organize layers is to name them something other than Layer 1, Layer 2, and so on. If you didn't name them when (you should) you can always double-click a layer's name in the Layers panel and rename it right there.</p>
+<p>Another renaming option in CS6 is to choose Layer&rarr;Rename Layer. When you do, Photoshop highlights the name of the active layer; just type some text to rename it. To rename additional layers, press the Tab key to highlight the name of the next layer down, or Shift-Tab to highlight the name of the next layer up.</p>
+<p>In addition to giving layers meaningful names, another great way to keep them organized is to color code them. For example, you could color-code various sections. In CS6 you can assign a color anytime by activating the layer(s) and then Ctrl-clicking (right-clicking on a PC) the layer(s) and picking a color from the resulting shortcut menu. (To remove color-coding, do the same thing but choose No Color from the shortcut menu).</p>
+<hr />
+<p></p>
+<h2>Linking and Locking Layers</h2>
+<p>You can protect yourself from making accidental changes by linking layers together or locking down certain aspects of them.</p>
+<p></p>
+<h3>Linking Layers</h3>
+<div class="row">
+<div class="col-sm-8">
+<p>If you need to move something in your image that's made from several layers, it'd be a real pain to move each layer individually and then reconstruct the image. Fortunately, you can link layers before you grab the Move tool so that they travel as a single unit. Linking related layers can help you avoid accidentally misaligning layers with the Move tool. For example, if you've placed some text next to an image, linking the image layer with the Type layer ensures that they stay perfectly aligned.</p>
+</div>
+<div class="col-sm-4"><img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/linked-layers.jpg" class="img-responsive thumbnail" alt="Screenshot of Photoshops Layers panel with some layers linked" /></div>
+</div>
+<p></p>
+<h3>Locking Layers</h3>
+<div class="row">
+<div class="col-sm-8">
+<p>You can add a more serious level of protection with layer locks, which prevent layers from being edited or moved. At the top of the Layers panel is a row of four buttons that you can use to lock various aspects of layers. First activate the layer you want to lock, and then click the appropriate lock button to prevent any changes. Here are your options:</p>
+<dl><dt>Lock transparent pixels</dt><dd>
+<p>This protects the layer's transparent pixels so they don't change even if you paint across them or run the Edit&rarr;Fill command. You could apply this lock to change the fade's color without affecting the layer's see-through bits. This lock's button looks like the transparency checkerboard.</p>
+</dd><dt>Lock image pixels</dt><dd>
+<p>This won't let you do anything to a layer but nudge it around with the Move tool. The button for this lock looks like the Brush tool.</p>
+</dd><dt>Lock position</dt><dd>
+<p>If you've carefully positioned a layer and want to make sure it stays put, click this button, which looks like a four-headed arrow. You can still edit the layer, you just can't move it.</p>
+</dd><dt>Lock all</dt><dd>
+<p>Use it to prevent the layer from being edited or moved.</p>
+</dd></dl></div>
+<div class="col-sm-4"><img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/locked-layers.jpg" class="img-responsive thumbnail" alt="Screenshot of Photoshops Layers panel with lock tools highlighted" /></div>
+</div>
+<hr />
+<p></p>
+<h2>Grouping Layers into Folders</h2>
+<p>You can rein in a fast-growing Layers panel by combining layers into folders called layer groups. You can expand and collapse layer groups just like the folders on your hard drive, and they'll save you a lot of scrolling when you're layer hunting. A good practice to organize your layers into logical groups that follow the structure of the image. For example: a web layout you would create the topmost folder as Header, containing all the header assets, the second folder as Main Content etc.</p>
+<p>Here are the different ways you can group layers:</p>
+<ul>
+<li>
+<p>Create the group first by clicking the &ldquo;Create a new group&rdquo; button at the bottom of the Layers panel (it looks like a tiny folder) or by choosing New Group from the Layers panel's menu. (If you go the latter route, you'll get a dialog box where you can name the group, assign it color, and change its blend mode and opacity if you want.) Photoshop adds the group to the Layers panel; just drag layers onto the group's folder icon in the layer stack to add them to it.</p>
+</li>
+<li>
+<p>Activate the layers first and then press <strong>⌘-G</strong> (Ctrl+G on a PC) or choose &ldquo;New Group from Layers&rdquo; in the Layers panel's menu. Photoshop adds a group named Group 1 to your Layers panel that includes all the layers you activated; double click the group's name to rename it.</p>
+</li>
+</ul>
+<p>To split apart grouped layers, activate the group and then choose Layer&rarr;Ungroup Layers, press <strong>Shift-⌘-G</strong> (Shift+Ctrl+G on a PC), or Control-click (right-click) the group and then choose Ungroup Layers from the shortcut menu.</p>
+<hr />
+<p></p>
+<h2>Layer Comps</h2>
+<p>When creating a visual layout, rarely do you find the perfect layout right away. Design takes time and exploration. Designers often create multiple compositions or comps of a page layout to show clients. Rather than creating similar variations from multiple files with redundant layers, you can create, manage, and view multiple versions of a layout in a single Photoshop file using Layer Comps. Those comps can then be spun off into separate files or exported out as a PDF or web-gallery by using Adobe Bridge.</p>
+<div class="row">
+<div class="col-sm-6">
+<p>A Layer Comp is simply a snapshot of a state of the Layers palette. Layer comps record three types of layer options:</p>
+<ul>
+<li>
+<p>Layer visibility&mdash;whether a layer is showing or hidden.</p>
+</li>
+<li>
+<p>Layer position in the document.</p>
+</li>
+<li>
+<p>Layer appearance&mdash;whether a layer style is applied to the layer and the layer&rsquo;s blending mode.</p>
+</li>
+</ul>
+</div>
+<div class="col-sm-6"><img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/layer-comps.jpg" class="img-responsive thumbnail" alt="Screenshot of the Layer Comps Panel in Photoshop" /></div>
+</div>
+<p>You create a comp simply by pressing the Make New Layer Comp button to take a snapshot of your current layer state. Make changes to your layout and save new comps as you go. You can save changes to a particular comp by pressing the Update Layer Comps button. You view comps by selecting the thumbnail next to your chosen comp or press the arrow buttons to cycle through saved comps.</p>
+<p>Remember that you may need to save multiple similar layers with variations because Layer Comps only save the information related to layer structure and organization. For example, you can save multiple variations of layers styles on a text layer without changing the layer, but not different fonts or typed content because those are text characteristics. If additional layers are needed, then feel free to use them. Unused layers can be saved as turned off.</p>
+<p>If you make certain edits, like cropping or deleting a layer, or changing a layer's color, opacity, or fill&mdash; basically, any edit that's beyond the layer-comp feature's tracking capabilities&mdash;Photoshop gets cranky and locks you out of your layer comps. You can tell which comps are affected because they'll have little warning triangles to the right of their names. These triangles mean that Photoshop needs you to update the layer comp(s) because it can't keep track of every change you made.</p>
+<div class="well">
+<h4>Exporting layer comps:</h4>
+<p>When you're ready to show the client your layer comps, export them by choosing File&rarr;Scripts&rarr;&ldquo;Layer Comps to Files.&rdquo; Photoshop creates a separate file for each layer comp in whatever format you choose (you get the same options as when you export layers to files).</p>
+</div>
+<p>Practical applications of Layer Comps include playing with different blending mode variations of different combinations of adjustment layers to explore various visual presentations. Layer Comps are also great for exploring graphic design options, such as different fonts for a specific layout. Layer Comps can also be used for Animation and are really handy to embed a single PSD file with multiple page layouts in InDesign.</p>
+<hr />
+<p></p>
+<h2>Rasterizing Layers</h2>
+<p>If you try to paint or run a filter on a Shape or Type layer Photoshop puts up a fuss: It displays a dialog box letting you know that you've got to rasterize that layer first. Why? Because vectors aren't made of pixels, and to use pixel-based tools&mdash;like the Brush, Eraser, and Clone Stamp&mdash;on a vector-based layer, you have to convert it to pixels first. This process is called rasterizing. Beware: There's no going back once you've rasterized a layer.</p>
+<hr />
+<p></p>
+<h2 id="merge">Merging Layers</h2>
+<p>In some situations you have no choice but to merge or stamp layers or completely flatten your file. If you know that you'll never want to change your layers, you can merge two or more layers into one. Not only does that reduce the length of your Layers panel, but it also reduces the file's size. Photoshop gives you several ways to merge layers:</p>
+<p class="alert alert-info"><strong>Note:</strong> You can merge any kind of layers, but you need to have a pixel-based layer underneath them in the Layers panel to use the merge commands (or else they'll be grayed out). Photoshop then merges everything onto that pixel-based layer.</p>
+<dl><dt>Merge down</dt><dd>
+<p>To merge two visible layers that live next to each other in the Layers panel&mdash;and the bottom one is a pixel-based layer&mdash;activate the top layer and then choose Layer&rarr;Merge Down, choose Merge Down from the Layers panel's menu, or press ⌘-E (Ctrl+E on a PC).</p>
+</dd><dt>Merge visible</dt><dd>
+<p>To merge just some of your layers, activate a pixel-based layer as your target, and then go to Layer&rarr;Merge Visible, choose Merge Visible from the Layers panel's menu, or press <strong>Shift-⌘-E</strong> (Shift+Ctrl+E).</p>
+</dd><dt>Merge activated</dt><dd>
+<p>Activate the layers you want to merge (either pixel- or vector-based) and then go to Layer&rarr;Merge Layers, choose Merge Layers from the Layers panel's menu, or press <strong>⌘-E</strong> (Ctrl+E).</p>
+</dd><dt>Merge linked</dt><dd>
+<p>If you've linked layers together, you can merge them in one fell swoop&mdash;though you've got to activate them first by choosing Layer&rarr;Select Linked Layers or choosing Select Linked Layers from the Layers panel's menu, and then following the instructions for merging active layers.</p>
+</dd></dl><hr />
+<p></p>
+<h2>Stamping Layers</h2>
+<p>You can think of stamping as a safer version of merging because it combines the active layers on a new layer, leaving the original layers intact. This command is great when you need to edit more than one layer with tools that affect only one layer at a time (like filters and layer styles). Here are the stamping options:</p>
+<dl><dt>Stamp active layers</dt><dd>
+<p>Activate the layers you want to stamp and then press <strong>Option-⌘-E</strong> (Alt+Ctrl+E).</p>
+</dd><dt>Stamp visible</dt><dd>
+<p>Turn off the layers you don't want to stamp by clicking their visibility eyes, and then press <strong>Shift-Option-⌘-E</strong> (Shift+Alt+Ctrl+E). You can also hold Option (Alt) as you choose Merge Visible from the Layers panel's menu to make Photoshop merge everything onto a new layer.</p>
+</dd></dl><hr />
+<p></p>
+<h2>Flattening Layers</h2>
+<p>This command makes your file flat, giving you a locked background that doesn't allow for transparency (any areas that were transparent become white instead). To flatten a whole file, go to Layer&rarr;Flatten Image or choose Flatten Image from the Layers panel's menu.</p>
+<hr />
+<p></p>
+<h2>Layer Masks</h2>
+<p>Remember the last time you gave your walls a fresh coat of paint? You probably broke out a roll of masking tape and taped up the baseboards and molding so you wouldn't get paint all over them. Hiding and protecting is masking tape's special purpose in life and its digital equivalent in Photoshop is layer masks.</p>
+<div class="row">
+<div class="col-sm-6 col-sm-push-6">
+<p>A layer mask lets you hide the content of the layer it's attached to, whether it's a pixelbased image layer, Smart Object, Shape layer, Fill layer or&mdash;in the case of Adjustment layers&mdash;a color or lighting change. Learning to use masks will keep you from having to erase parts of an image to produce the effect you want. So, for example, instead of deleting a background so you can swap it with another one, you can use a layer mask to hide it. As long as you save the document as a PSD file, you can go back and edit the mask anytime.</p>
+</div>
+<div class="col-sm-6 col-sm-pull-6"><img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/layer-mask.jpg" class="img-responsive thumbnail" alt="Screenshot of the Layers Panel showing Layer Masks applied to some layers" /></div>
+</div>
+<div class="row">
+<div class="col-sm-6 col-sm-push-6">
+<p>A layer mask lets you hide the content of the layer it's attached to, whether it's a pixelbased image layer, Smart Object, Shape layer, Fill layer or&mdash;in the case of Adjustment layers&mdash;a color or lighting change. Learning to use masks will keep you from having to erase parts of an image to produce the effect you want. So, for example, instead of deleting a background so you can swap it with another one, you can use a layer mask to hide it. As long as you save the document as a PSD file, you can go back and edit the mask anytime.</p>
+<p>Here you can see that this couple and the text live on different layers. If you add a white (empty) layer mask to the text layer and then paint within the mask with a black brush (circled), you can hide parts of the text, revealing the couple's hats. Over in the Layers panel, the corner frame lets you know which part of the document is active: the Type layer or its mask. Bottom: Magazines use this trick all the time on their covers to make text look like it's behind people.</p>
+</div>
+<div class="col-sm-6 col-sm-pull-6"><img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/layer-mask-demo.jpg" class="img-responsive thumbnail" alt="Screenshot of the Layers Panel showing a Layer Mask applied accompinied with the resulting image." /></div>
+</div>
+<hr />
+<p></p>
+<h2>Editing a Mask</h2>
+<div class="col-sm-6">
+<p>Once you add a mask, you'll undoubtedly need to fine-tune it, turn it off or on, and so on. You'll find the following controls in the Properties panel (Window&rarr;Properties) when a mask is active in the Layers panel:</p>
+</div>
+<div class="col-sm-6"><img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/layer-mask-properties.jpg" class="img-responsive thumbnail" alt="Screenshot of Layer Mask Properties panel." /></div>
+<dl><dt>Density</dt><dd>
+<p>Photoshop sets the opacity of new layer masks to 100 percent, which means you can't see through them. If you want to make a mask semitransparent so the contents of the layer (like the original background, say) show through, drag this slider to the left. Dragging it all the way left makes your mask completely transparent&mdash;in other words, useless.</p>
+</dd><dt>Feather</dt><dd>
+<p>This slider lets you soften the edges of the mask so that it blends into the background a little better. (New layer masks don't have any feathering, so their edges are sharp.) Drag it right to soften the mask's edges or left to sharpen them.</p>
+</dd><dt>Mask Edge</dt><dd>
+<p>When you click this button, Photoshop opens the Refine Mask dialog box, where you can smooth the mask's edges, make the mask smaller or larger, add feathering to it, and so on.</p>
+</dd><dt>Color Range</dt><dd>
+<p>This button opens the Color Range dialog box, where you can add to or subtract from the mask based on the colors in your image. You can also use this dialog box to help create a selection that you can then make a mask from.</p>
+</dd><dt>Invert</dt><dd>
+<p>This button lets you flip-flop the mask so what was masked isn't and what wasn't masked is.</p>
+</dd><dt>Load Selection from Mask</dt><dd>
+<p>Once you've created a layer mask, you can click this button to load it as a selection that you can then use somewhere else, like in an Adjustment layer.</p>
+</dd><dt>Apply Mask</dt><dd>
+<p>Once you get the mask just right, you can permanently apply it to the layer by clicking this button. If you click this button by accident, use the History panel or the Undo command <strong>⌘-Z</strong> (Ctrl+Z on a PC) to get the mask back or you won't be able to edit it ever again.</p>
+</dd><dt>Disable/Enable Mask</dt><dd>
+<p>This visibility eye works just like the one in the Layers panel: Click it to turn your mask off or on.</p>
+</dd><dt>Delete Mask</dt><dd>
+<p>If you decide you don't want the mask, you can delete it by clicking the little trash can at the bottom of the Properties panel.</p>
+</dd></dl><hr class="line" />
+<p>The Properties panel's menu contains these functions:</p>
+<dl><dt>Mask Options</dt><dd>
+<p>When you're editing masks, you've got a few different viewing options. In the masking examples discussed earlier, the mask was edited while the image was viewed in full color. However, you can also work on a mask while you're looking at a grayscale version of the image, or turn the mask into a color overlay. Which one you choose depends on the colors in your image and the area you're trying to select. If you choose the color overlay and Photoshop's standard red isn't doing it for you, use the Layer Mask Display Options dialog box to pick another color that makes it easy to distinguish the mask from the unmasked parts of the image.</p>
+</dd><dt>Add Mask To Selection</dt><dd>
+<p>If you create a mask and then make a selection you can choose this option to add the area you've masked to the selection. This is an easy way to expand the currently selected area to include the mask in one quick step.</p>
+</dd><dt>Subtract Mask From Selection</dt><dd>
+<p>This option deletes the shape of the mask from your selection.</p>
+</dd><dt>Intersect Mask With Selection</dt><dd>
+<p>To select only areas where your selection and mask overlap (if you need to add a color or pattern only to those places, for example), choose this option.</p>
+</dd></dl><hr />
+<p></p>
+<h2>Layer Styles and Effects</h2>
+<p>Layer styles and effects are those cool special effects like Drop Shadow, Outer Glow, Gradient Overlay, Stroke, etc. Chances are you've already discovered these things and so here are just a few notes:</p>
+<div class="row">
+<div class="col-sm-6 col-sm-push-6">
+<ul>
+<li>
+<p>These are completely editable, so play with the sliders. This is my biggest bit of advice. Spend time playing with these things and you'll be amazed at all the cool effects you can make. You can always go back at any time and tweak as needed.</p>
+</li>
+<li>
+<p>There is a Styles Palette that is normally found hanging around with the Colors and Swatches. You'll find a bunch of little squares showing an effect. Clicking a square will apply that style on whatever layer happens to be selected.</p>
+</li>
+<li>
+<p>The basic set of Styles in Photoshop isn't great. There are many more quality styles hidden away in different libraries. Click the little circle and triangle button to get More Options and pick something else.</p>
+</li>
+<li>
+<p>Each of these Styles is simply a saved &ldquo;recipe&rdquo; of all those Layer Styles you've used before. You can apply a Style on a layer and then double-click in the Layer to edit those settings. So, find something you like, but then tweak to your needs.</p>
+</li>
+<li>
+<p>To save your settings, simply double-click in the empty area of the Styles Palette (or click on the New Style icon that looks like a folded post-it note). You can then apply the same style to multiple layers.</p>
+</li>
+<li>
+<p>In the Layers Palette, sliding the Opacity slider will affect both the layer pixels and the layer effects. However, sliding the Fill slider will affect only the layer pixels and won't affect the layer effects.</p>
+</li>
+<li>
+<p>When editing different aspects of your Layer Style, don't forget to click into the image itself; sometimes you have the ability to modify certain characteristics of the style. For example, when working with Drop Shadow, clicking in the image will allow you to slide the shadow around instead of using sliders.</p>
+</li>
+<li>
+<p>If you want to &ldquo;rasterize&rdquo; the effects and turn the layer styles into actual pixels, the eassy way to do this is to create a new empty layer either above or below your layer and then Merge them together (look back at the <a hidden="#merge">Merging section</a> for how to do this).</p>
+</li>
+</ul>
+</div>
+<div class="col-sm-6 col-sm-pull-6"><img src="https://www.msu.edu/user/davisgom/171/assets/images/layers/layer-styles.jpg" class="img-responsive thumbnail" alt="Example of the different layer styles available in Photoshop" /></div>
+</div>
+
+</div>
+</body>
+</html>

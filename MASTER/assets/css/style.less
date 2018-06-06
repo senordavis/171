@@ -1,0 +1,310 @@
+@import "variables.less";
+@import "bootstrap.less";
+@import "buttons.less";
+
+@montserrat: "Montserrat", sans-serif;
+@roboto: "Roboto", sans-serif;
+
+@lighter-blue: #1B75BA;
+@light-blue: #15588C;
+@base-blue: #05406F;
+@dark-blue: #043053;
+@thanksgiving-bg: #EF4136;
+
+body {
+	font-family: @roboto;
+    font-weight: 300;
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6, .h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: @montserrat;
+  font-weight: 700;
+  line-height: 0.9;
+  color: inherit;
+}
+
+a {
+	font-weight: bold !important;
+}
+
+#weekly-intro {
+	height: 500px;
+	margin-bottom: 60px;
+    color: #CCC;
+
+    div, section {
+        height: 100% !important;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        padding: 0px 30px;
+        //background-color: rgba(0, 0, 0, 0.5);
+        //border-radius: 6px;
+    }
+
+	.due-date {
+		background-color: @brand-danger;
+		color: white;
+		padding: 2px;
+		white-space: nowrap;
+	}
+
+    p a {
+        color: #FFF;
+        text-decoration: underline;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: -5px;
+            text-decoration: none;
+            text-decoration: underline;
+        }
+
+    }
+}
+
+.brand-bg {
+    background: url("../images/171Background.jpg") center -156px no-repeat;
+	background-color: @base-blue;
+    background-attachment: fixed;
+}
+
+.thanksgiving-bg {
+    background: url("../images/thanksgiving-bg.jpg") center -156px no-repeat !important;
+    background-color: @thanksgiving-bg !important;
+}
+
+.feature-heading {
+	//margin-top: 30px;
+	margin-top: 0px;
+	font-size: 48px;
+    color: #FFF;
+
+	.text-muted {
+		font-weight: 400;
+		font-size: 24px;
+		display: inline-block;
+        color: @lighter-blue;
+
+	}
+}
+
+@media (min-width: 768px) {
+  .lead {
+    font-size: 18px;
+  }
+}
+
+.feature, footer, .content {
+
+	p a {
+	font-weight: bold !important;
+	color: @lighter-blue;
+
+	&:hover {
+		color: white;
+		background-color: @lighter-blue;
+		padding: 5px;
+		margin: -5px;
+		text-decoration: none;
+	}
+}
+
+}
+
+.announcement {
+	padding: 15px;
+	margin: -60px 0 60px;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+.area {
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+
+    &:before {
+        content: "";
+        width: 80%;
+        height: 1px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-top: 1px solid gray;
+        margin-left: 10%;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    p:first-of-type {
+        width: 80%;
+    }
+}
+.area-icon {
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: @lighter-blue;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+    border-radius: 100%;
+    margin-bottom: 100px;
+}
+
+footer {
+    font-family: @montserrat;
+	font-size: 14px;
+    padding-top: 30px;
+	padding-bottom: 60px;
+    background-color: @gray-lighter;
+}
+
+.fun {
+    padding: 20px;
+    color: #AAA;
+}
+
+.top {
+    position: relative;
+    top: 40px;
+}
+
+// SYLLABUS STYLES
+
+.syllabus {
+	h2 {font-size: 21px;}
+	h3 {font-size: 18px; margin-bottom: 5px;margin-top: 30px;}
+
+	> section {
+	border-top: 1px solid lighten(gray, 20%);
+	margin-bottom: 15px;
+	}
+
+	.plagiarism {
+		.alert();
+		.alert-danger();
+		margin-top: 30px;
+		padding: 30px;
+
+		h3 {margin-top: 0;}
+
+	}
+
+	table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	//font-family: "Raleway", "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif !important;
+	}
+	td,th {
+		border: 1px solid #ddd;
+		padding: 3px 10px;
+	}
+	th {
+		padding: 5px 10px;
+	}
+
+}
+
+.week {
+	border-top: 1px solid lighten(gray, 20%);
+	margin-bottom: 15px;
+}
+
+.week:last-of-type {
+	border-bottom: 1px solid lighten(gray, 20%);
+}
+
+.class-info-list {
+	border-top: none;
+
+	h2 {font-size: 24px;margin-top: 0px;}
+
+	ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+
+.email {
+	> p {display: inline; margin: 0;}
+}
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+hr.line {
+  background: none !important;
+  border-bottom: 1px solid #CCC;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+a.btn {
+//	color: white !important;
+//	padding: 10px 16px !important;
+	margin: 0 !important;
+    font-weight: normal !important;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media print {
+    .pagebreak {
+        display: block;
+        page-break-before: always;
+    }
+}
+
+table {
+	padding: 0;border-collapse: collapse;
+}
+
+table tr {
+	border-top: 1px solid #cccccc;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+table tr:nth-child(2n) {
+	background-color: #f8f8f8;
+}
+
+table tr th {
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	margin: 0;
+	padding: 6px 13px;
+}
+
+table tr td {
+	border: 1px solid #cccccc;
+	margin: 0;
+	padding: 6px 13px;
+}
+
+table tr th :first-child, table tr td :first-child {
+	margin-top: 0;
+}
+
+table tr th :last-child, table tr td :last-child {
+	margin-bottom: 0;
+}
