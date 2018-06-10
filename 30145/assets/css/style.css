@@ -7107,6 +7107,22 @@ footer {
 .top {
   position: relative;
 }
+@media (min-width: 768px) {
+  .rubric .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+  }
+  .rubric .grid h3,
+  .rubric .grid p {
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    margin: 0;
+  }
+  .rubric .grid h3 {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+}
 .syllabus h2 {
   font-size: 21px;
 }

@@ -2,6 +2,13 @@
 @import "bootstrap.less";
 @import "buttons.less";
 
+// Media Query Shortcuts
+@xs:     ~"(min-width: 375px)";
+@xsmax:  ~"(max-width: 375px)";
+@small:  ~"(min-width: 768px)";
+@medium: ~"(min-width: 992px)";
+@large:  ~"(min-width: 1200px)";
+
 @montserrat: "Montserrat", sans-serif;
 @roboto: "Roboto", sans-serif;
 
@@ -65,12 +72,12 @@ a {
         }
 
     }
-    
+
     .first-row {
         margin-top: 20px;
         margin-bottom: 50px;
     }
-    
+
     .second-row {
         background-color: rgba(0, 0, 0, 0.5);
         padding-top: 20px;
@@ -185,6 +192,33 @@ footer {
 .top {
     position: relative;
     //top: 40px;
+}
+
+.rubric {
+
+	.grid {
+		@media @small {
+			display: grid;
+			grid-template-columns: repeat(5, 20%);
+
+			h3,p {
+				border: 1px solid @gray-lighter;
+				padding: 15px;
+				margin: 0;
+			}
+
+			h3 {
+				font-size: 16px;
+				padding-top: 20px;
+			}
+
+		}
+	}
+
+	// p:nth-child(even) {
+	// 	.alert();
+	// 	.alert-info();
+	// }
 }
 
 // SYLLABUS STYLES
