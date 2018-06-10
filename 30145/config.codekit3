@@ -1208,6 +1208,62 @@
 		"oAP": "\/content\/assignments\/03-layers.html",
 		"oF": 0
 		},
+	"\/content\/assignments\/04-colorcorrection.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/assignments\/04-colorcorrection.html",
+		"oF": 0
+		},
+	"\/content\/assignments\/05-photorestoration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/assignments\/05-photorestoration.html",
+		"oF": 0
+		},
+	"\/content\/assignments\/06-channels.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/assignments\/06-channels.html",
+		"oF": 0
+		},
+	"\/content\/assignments\/07-painting.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/assignments\/07-painting.html",
+		"oF": 0
+		},
+	"\/content\/assignments\/08-videoclip.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/assignments\/08-videoclip.html",
+		"oF": 0
+		},
+	"\/content\/assignments\/09-postcard.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/assignments\/09-postcard.html",
+		"oF": 0
+		},
+	"\/content\/assignments\/10-webdesign.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/assignments\/10-webdesign.html",
+		"oF": 0
+		},
+	"\/content\/assignments\/11-selfportrait.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/assignments\/11-selfportrait.html",
+		"oF": 0
+		},
 	"\/content\/assignments\/_source\/01-intro.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1960,6 +2016,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/_rubric.html",
+		"oF": 0
+		},
+	"\/partials\/_rubric_table.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/_rubric_table.html",
 		"oF": 0
 		},
 	"\/partials\/_scripts.kit": {
