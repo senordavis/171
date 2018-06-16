@@ -6992,7 +6992,7 @@ a {
 #weekly-intro .due-date {
   background-color: #d9534f;
   color: white;
-  padding: 2px;
+  padding: 0px 6px;
 }
 #weekly-intro p a {
   color: #FFF;
