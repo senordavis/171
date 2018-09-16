@@ -2,6 +2,13 @@
 @import "bootstrap.less";
 @import "buttons.less";
 
+// Media Query Shortcuts
+@xs:     ~"(min-width: 375px)";
+@xsmax:  ~"(max-width: 375px)";
+@small:  ~"(min-width: 768px)";
+@medium: ~"(min-width: 992px)";
+@large:  ~"(min-width: 1200px)";
+
 @montserrat: "Montserrat", sans-serif;
 @roboto: "Roboto", sans-serif;
 
@@ -9,7 +16,10 @@
 @light-blue: #15588C;
 @base-blue: #05406F;
 @dark-blue: #043053;
-@thanksgiving-bg: #EF4136;
+
+@theme-primary: @base-blue;
+@theme-primary-light: @light-blue;
+@theme-primary-dark: @dark-blue;
 
 body {
 	font-family: @roboto;
@@ -29,9 +39,10 @@ a {
 }
 
 #weekly-intro {
-	height: 500px;
-	margin-bottom: 60px;
-    color: #CCC;
+	min-height: 500px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+  color: #CCC;
 
     div, section {
         height: 100% !important;
@@ -68,16 +79,18 @@ a {
     }
 }
 
+.news-container {
+	background-color: @theme-primary-light;
+	margin-bottom: 60px;
+}
+
 .brand-bg {
     background: url("../images/171Background.jpg") center -156px no-repeat;
-	background-color: @base-blue;
+		background-color: @base-blue;
+		background-size: cover;
     background-attachment: fixed;
 }
 
-.thanksgiving-bg {
-    background: url("../images/thanksgiving-bg.jpg") center -156px no-repeat !important;
-    background-color: @thanksgiving-bg !important;
-}
 
 .feature-heading {
 	//margin-top: 30px;
@@ -94,7 +107,7 @@ a {
 	}
 }
 
-@media (min-width: 768px) {
+@media @small {
   .lead {
     font-size: 18px;
   }
@@ -138,29 +151,46 @@ a {
         top: 0;
         left: 0;
         border-top: 1px solid gray;
-        margin-left: 10%;
+        margin-left: 45px;
     }
 
     h2 {
         text-transform: uppercase;
         margin-bottom: 20px;
+				margin-left: 30px;
+				@media @small {	margin-left: 0px; }
     }
 
     p:first-of-type {
         width: 80%;
     }
+
+		p {
+			margin-left: 30px;
+			@media @small {	margin-left: 0px; }
+		}
 }
 .area-icon {
-    float: left;
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    color: @lighter-blue;
+    color: @theme-primary;
     text-align: center;
-    line-height: 70px;
     font-size: 40px;
     border-radius: 100%;
-    margin-bottom: 100px;
+		margin-left: 30px;
+		@media @small {
+			float: left;
+			width: 100px;
+	    height: 100px;
+	    line-height: 70px;
+	    margin-bottom: 100px;
+			margin-left: 0px;
+		}
+}
+
+.links-list {
+	li {
+		width: 80%;
+		margin-bottom: 10px;
+	}
 }
 
 footer {

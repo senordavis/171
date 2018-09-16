@@ -6975,8 +6975,9 @@ a {
   font-weight: bold !important;
 }
 #weekly-intro {
-  height: 500px;
-  margin-bottom: 60px;
+  min-height: 500px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: #CCC;
 }
 #weekly-intro div,
@@ -7006,14 +7007,15 @@ a {
   text-decoration: none;
   text-decoration: underline;
 }
+.news-container {
+  background-color: #15588C;
+  margin-bottom: 60px;
+}
 .brand-bg {
   background: url("../images/171Background.jpg") center -156px no-repeat;
   background-color: #05406F;
+  background-size: cover;
   background-attachment: fixed;
-}
-.thanksgiving-bg {
-  background: url("../images/thanksgiving-bg.jpg") center -156px no-repeat !important;
-  background-color: #EF4136 !important;
 }
 .feature-heading {
   margin-top: 0px;
@@ -7066,26 +7068,49 @@ footer p a:hover,
   top: 0;
   left: 0;
   border-top: 1px solid gray;
-  margin-left: 10%;
+  margin-left: 45px;
 }
 .area h2 {
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-left: 30px;
+}
+@media (min-width: 768px) {
+  .area h2 {
+    margin-left: 0px;
+  }
 }
 .area p:first-of-type {
   width: 80%;
 }
+.area p {
+  margin-left: 30px;
+}
+@media (min-width: 768px) {
+  .area p {
+    margin-left: 0px;
+  }
+}
 .area-icon {
-  float: left;
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  color: #1B75BA;
+  color: #05406F;
   text-align: center;
-  line-height: 70px;
   font-size: 40px;
   border-radius: 100%;
-  margin-bottom: 100px;
+  margin-left: 30px;
+}
+@media (min-width: 768px) {
+  .area-icon {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 70px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+  }
+}
+.links-list li {
+  width: 80%;
+  margin-bottom: 10px;
 }
 footer {
   font-family: "Montserrat", sans-serif;
